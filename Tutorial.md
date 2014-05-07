@@ -16,6 +16,19 @@ Install expressjs and less-middleware:
 
     npm install --save express less-middleware
 
-HTML:
 
+## `public/hello/world.html`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Hello World</title>
+</head>
+<body>
+  <h1><span class="hello">Hello</span> <span class="world">World</span>!</h1>
+</body>
+</html>
+```
 
