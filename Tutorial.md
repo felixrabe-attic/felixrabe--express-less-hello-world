@@ -28,7 +28,10 @@ Install expressjs and less-middleware:
   <link rel="stylesheet" href="/assets/styles.css" />
 </head>
 <body>
-  <h1><span class="hello">Hello</span> <span class="world">World</span>!</h1>
+  <h1>
+    <span class="hello">Hello</span>
+    <span class="world">World</span>!
+  </h1>
 </body>
 </html>
 ```
