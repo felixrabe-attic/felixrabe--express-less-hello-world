@@ -77,4 +77,4 @@ var server = app.listen('7890', function() {
 
     node index.js
 
-And then visit http://localhost:7890/hello/world.html.
+And then visit [http://localhost:7890/hello/world.html](http://localhost:7890/hello/world.html).
