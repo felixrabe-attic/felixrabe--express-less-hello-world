@@ -40,8 +40,8 @@ Install expressjs and less-middleware:
 ## `public/assets/styles.less`
 
 ```css
-@hello: #996633;
-@world: #669933;
+@hello: #dd4433;
+@world: #66bb33;
 
 .hello {
   color: @hello;
@@ -50,4 +50,24 @@ Install expressjs and less-middleware:
 .world {
   color: @world;
 }
+```
+
+
+## `index.js`
+
+```javascript
+#!/usr/bin/env node
+
+var path = require('path');
+
+var express = require('express');
+var lessMiddleware = require('less-middleware');
+
+var app = express();
+app.use(lessMiddleware(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
+
+var server = app.listen('7890', function() {
+  console.log('Listening on port %d', server.address().port);
+});
 ```
