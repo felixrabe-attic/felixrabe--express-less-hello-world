@@ -1,3 +1,7 @@
+This is the complete code for the [tutorial](./Tutorial.md) posted at
+https://github.com/emberfeather/less.js-middleware/wiki/Hello-World-Example
+
+
 ## License
 
 The MIT License (MIT)
