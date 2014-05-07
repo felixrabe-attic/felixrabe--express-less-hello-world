@@ -71,3 +71,10 @@ var server = app.listen('7890', function() {
   console.log('Listening on port %d', server.address().port);
 });
 ```
+
+
+## Start it up
+
+    node index.js
+
+And then visit http://localhost:7890/hello/world.html.
